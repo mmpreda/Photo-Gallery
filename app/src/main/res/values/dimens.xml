@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="fragments_horizontal_margin">12dp</dimen>
+
+    <!-- Albums -->
+
+    <dimen name="no_data_text_size">15sp</dimen>
+    <dimen name="no_data_text_margin_top">250dp</dimen>
+    <dimen name="no_data_text_horizontal_padding">16dp</dimen>
+
+    <dimen name="albums_vertical_margin">8dp</dimen>
+    <dimen name="albums_text_vertical_padding">8dp</dimen>
+
+    <!-- Photos -->
+
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="photos_image_height">120dp</dimen>
+    <dimen name="photos_title_text_size">14sp</dimen>
+    <dimen name="photos_title_padding">8dp</dimen>
+
+
+</resources>

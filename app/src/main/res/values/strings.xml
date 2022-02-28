@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Photos Gallery</string>
+    <string name="albums_screen_name">Albums</string>
+    <string name="photos_screen_name">Photos</string>
+
+    <string name="no_data">Sorry, for now there was a problem and there\'s no data ;( \n\nPlease try again later</string>
+
+    <string name="connectivity_lost">Lost network connectivity</string>
+    <string name="connectivity_back">Network connectivity is back</string>
+
+</resources>

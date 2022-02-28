@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gallery_nav_graph"
+    app:startDestination="@id/albumsFragment">
+
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.madalinapreda.photosgallery.view.albums.AlbumsFragment"
+        android:label="@string/albums_screen_name"
+        tools:layout="@layout/fragment_albums">
+        <action
+            android:id="@+id/navigate_to_photos"
+            app:destination="@id/photosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.madalinapreda.photosgallery.view.photos.PhotosFragment"
+        android:label="@string/photos_screen_name"
+        tools:layout="@layout/fragment_photos">
+
+        <argument
+            android:name="album"
+            app:argType="com.madalinapreda.photosgallery.model.Album" />
+
+    </fragment>
+
+</navigation>
